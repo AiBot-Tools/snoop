@@ -42,9 +42,11 @@ def helpend():
     console.rule("[bold red]End of help")
 
 
-wZ1bad = []  #filtered IPs (not IPs) or filtered Yandex data, filtered 'geocoordinates'
-azS = []  #list of future request results
-coord = []  #coordinates multipurpose list
+import typing
+
+wZ1bad: typing.List[typing.Any] = []  #filtered IPs (not IPs) or filtered Yandex data, filtered 'geocoordinates'
+azS: typing.List[typing.Any] = []  #list of future request results
+coord: typing.List[typing.Any] = []  #coordinates multipurpose list
 
 
 def my_session():

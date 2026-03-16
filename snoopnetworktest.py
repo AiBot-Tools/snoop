@@ -2,7 +2,7 @@
 # Copyright (c) 2020 Snoop Project <snoopproject@protonmail.com> 
 "Network self-test"
 
-import speedtest
+import speedtest  # type: ignore
 from rich.console import Console
 from rich.panel import Panel
 from rich.style import Style as STL
